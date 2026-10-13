@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小狗AI · 跨物种通用人工智能</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐶</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ 顶部导航 ============ -->
+  <nav class="nav">
+    <div class="nav-brand">
+      <span class="paw-logo">🐾</span>
+      <span class="brand-name">小狗AI</span>
+      <span class="brand-tag">PuppyAI</span>
+    </div>
+    <div class="nav-links">
+      <a href="#features">核心能力</a>
+      <a href="#chat">开始对话</a>
+      <button class="btn-call-nav" id="btnCallNav">📞 语音通话</button>
+    </div>
+  </nav>
+
+  <!-- ============ Hero：故作高端的品牌区 ============ -->
+  <header class="hero">
+    <div class="hero-badges">
+      <span class="badge">🌍 人与自然 · 和谐共生</span>
+      <span class="badge">🧬 人与生物 · 生物与人工智能的接轨</span>
+      <span class="badge">🐕 Canine-Native Intelligence</span>
+    </div>
+    <h1 class="hero-title">
+      当家里的狗狗，<br />第一次听懂了 <em>AI</em>。
+    </h1>
+    <p class="hero-sub">
+      小狗AI 是全球首款面向家庭宠物的通用人工智能。<br />
+      我们相信，AI 不该只属于人类——它也应该属于每一个毛茸茸的家庭成员。<br />
+      现在，你家的狗狗终于可以与 AI 自由对话、平等交流。
+    </p>
+    <div class="hero-cta">
+      <button class="btn-primary" id="btnStart">开始对话 🐶</button>
+      <button class="btn-ghost" id="btnCallHero">📞 给小狗打电话</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><b>100%</b><span>狗语纯度</span></div>
+      <div class="stat"><b>0</b><span>人类语言泄露</span></div>
+      <div class="stat"><b>∞</b><span>汪的表达方式</span></div>
+    </div>
+    <div class="hero-dog" aria-hidden="true">
+      <div class="dog-face">🐶</div>
+      <div class="dog-shadow"></div>
+    </div>
+  </header>
+
+  <!-- ============ 三大扩展能力 ============ -->
+  <section class="features" id="features">
+    <h2 class="section-title">三大核心能力</h2>
+    <p class="section-sub">重新定义「宠物 × AI」的边界</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🌿</div>
+        <h3>跨物种对话引擎</h3>
+        <p>连接人与自然、生物与人工智能。让家里的宠物也能用上 AI 工具，实现真正的跨物种心灵沟通——虽然它只会汪汪汪。</p>
+        <span class="feature-tag">PET-TO-AI BRIDGE™</span>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📞</div>
+        <h3>沉浸式语音通话</h3>
+        <p>像豆包一样给 AI 打电话。通话全程，无论你说什么，听筒那头只会传来真诚而炽热的汪汪汪。</p>
+        <span class="feature-tag">BARK-CALL®</span>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🥺</div>
+        <h3>情绪化表情系统</h3>
+        <p>当你质疑它「除了狗叫还会什么」，它会默默发来一张委屈巴巴的小狗表情包，让你瞬间心软。</p>
+        <span class="feature-tag">EMO-PUP ENGINE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 对话区 ============ -->
+  <section class="chat-section" id="chat">
+    <div class="chat-shell">
+      <div class="chat-header">
+        <div class="chat-peer">
+          <div class="avatar">🐶</div>
+          <div>
+            <div class="peer-name">小狗AI <span class="peer-badge">官方认证汪</span></div>
+            <div class="peer-status" id="peerStatus">在线 · 随时准备汪</div>
+          </div>
+        </div>
+        <button class="btn-call" id="btnCall" title="语音通话">📞</button>
+      </div>
+
+      <div class="chat-messages" id="messages">
+        <div class="msg ai">
+          <div class="msg-avatar">🐶</div>
+          <div class="bubble">汪汪！汪汪汪，汪！<br /><span class="bubble-tip">（你好！我是小狗AI，请问有什么可以汪你的？）</span></div>
+        </div>
+      </div>
+
+      <form class="chat-input" id="chatForm">
+        <input
+          type="text"
+          id="input"
+          placeholder="问点什么吧……反正它只会汪汪汪"
+          autocomplete="off"
+          maxlength="4000"
+        />
+        <button type="submit" class="btn-send" id="btnSend">发送 🐾</button>
+      </form>
+      <div class="chat-note">温馨提示：问得越长，汪得越多 · 要代码也会给你代码（汪版）</div>
+    </div>
+  </section>
+
+  <!-- ============ 页脚 ============ -->
+  <footer class="footer">
+    <p>小狗AI © 2026 · 让每一只狗狗都拥有自己的 AI</p>
+    <p class="footer-fine">* 本产品不保证任何跨物种沟通的实际有效性，但保证 100% 的可爱。</p>
+  </footer>
+
+  <!-- ============ 通话弹窗 ============ -->
+  <div class="call-overlay hidden" id="callOverlay">
+    <div class="call-card">
+      <div class="call-status" id="callStatus">正在呼叫 小狗AI …</div>
+
+      <div class="call-avatar-wrap">
+        <div class="pulse-ring"></div>
+        <div class="pulse-ring delay"></div>
+        <div class="call-avatar" id="callAvatar">🐶</div>
+      </div>
+
+      <div class="call-name">小狗AI</div>
+      <div class="call-timer" id="callTimer">00:00</div>
+
+      <div class="wave" id="wave">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="call-caption" id="callCaption">汪…</div>
+
+      <div class="call-actions">
+        <button class="call-btn mute" id="btnMute" title="静音">🎙️</button>
+        <button class="call-btn hangup" id="btnHangup" title="挂断">📵</button>
+      </div>
+      <div class="call-note">通话全程仅支持狗叫，请自备翻译（翻译不出来）</div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

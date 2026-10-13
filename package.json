@@ -1,0 +1,13 @@
+{
+  "name": "puppy-ai",
+  "version": "1.0.0",
+  "description": "小狗AI —— 全球首款跨物种通用人工智能（无论问什么，只回汪汪汪）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

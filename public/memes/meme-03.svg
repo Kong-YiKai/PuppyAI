@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" rx="36" fill="hsl(43, 80%, 88%)"/>
+  <ellipse cx="118" cy="128" rx="46" ry="72" fill="#B07B4F" transform="rotate(-22 118 128)"/>
+  <ellipse cx="282" cy="128" rx="46" ry="72" fill="#B07B4F" transform="rotate(22 282 128)"/>
+  <circle cx="200" cy="202" r="106" fill="#F0C08A"/>
+  <circle cx="200" cy="202" r="106" fill="none" stroke="#D9A066" stroke-width="4" opacity="0.5"/>
+  <path d="M138 168 q18 -16 38 -8" stroke="#5B3A29" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M262 168 q-18 -16 -38 -8" stroke="#5B3A29" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="158" cy="196" r="17" fill="#fff"/>
+  <circle cx="242" cy="196" r="17" fill="#fff"/>
+  <circle cx="158" cy="199" r="8.5" fill="#5B3A29"/>
+  <circle cx="242" cy="199" r="8.5" fill="#5B3A29"/>
+  <circle cx="154" cy="192" r="3" fill="#fff"/>
+  <circle cx="238" cy="192" r="3" fill="#fff"/>
+  <ellipse cx="149" cy="234" rx="7" ry="14" fill="#8FCBFF" opacity="0.95"/>
+  <ellipse cx="251" cy="234" rx="7" ry="14" fill="#8FCBFF" opacity="0.95"/>
+  <ellipse cx="200" cy="230" rx="14" ry="10" fill="#5B3A29"/>
+  <path d="M200 240 v9 M200 249 q-10 11 -21 5 M200 249 q10 11 21 5" stroke="#5B3A29" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="130" cy="230" rx="14" ry="8" fill="#F49C9C" opacity="0.55"/>
+  <ellipse cx="270" cy="230" rx="14" ry="8" fill="#F49C9C" opacity="0.55"/>
+  <text x="200" y="350" text-anchor="middle" font-size="30" font-weight="bold" fill="#8a5a33" font-family="'PingFang SC','Microsoft YaHei',sans-serif">狗狗祟祟</text>
+</svg>
